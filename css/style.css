@@ -1,0 +1,48 @@
+/* Barra de navegacion */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7 ;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos Generales */
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font: size 2.5rem;
+}
+/* Hero */
+.hero {
+    background-color: gainsboro;
+    min-height: 450px;
+    text-align: center;
+    }
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%; 
+   margin: 20px;
+   align-items: center;
+}
+
+/* Adaptable responsivo */
+@media screen and (max-width:767px ){
+    .navbar {
+        display: none;
+    }
+}
